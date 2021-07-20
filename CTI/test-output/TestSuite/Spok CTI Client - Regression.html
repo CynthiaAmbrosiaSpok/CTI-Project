@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>TestNG:  Spok CTI Client - Regression</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Spok CTI Client - Regression</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 29 06:49:55 PDT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>1551 seconds (1551590 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='winapp.cti.qa.testcases.phonecontrol.TransferCallTest.transferCall()'><b>transferCall</b><br>Test class: winapp.cti.qa.testcases.phonecontrol.TransferCallTest<br>Parameters: Y, 8161, 8162, 8014, 8014, PrivateLine, , , 1</td>
+<td></td>
+<td>316</td>
+<td>winapp.cti.qa.testcases.phonecontrol.TransferCallTest@25fb8912</td></tr>
+<tr>
+<td title='winapp.cti.qa.testcases.phonecontrol.TransferCallTest.transferCall()'><b>transferCall</b><br>Test class: winapp.cti.qa.testcases.phonecontrol.TransferCallTest<br>Parameters: Y, 8161, 8162, 8099, 8024, PrivateLine, , Failed - 2021/06/29 06:48:15 (PDT), 2</td>
+<td></td>
+<td>153</td>
+<td>winapp.cti.qa.testcases.phonecontrol.TransferCallTest@25fb8912</td></tr>
+<tr>
+<td title='winapp.cti.qa.testcases.phonecontrol.BlindTransferCallTest.transferCall()'><b>transferCall</b><br>Test class: winapp.cti.qa.testcases.phonecontrol.BlindTransferCallTest<br>Parameters: Y, 8161, 8162, 8014, 8014, PrivateLine, , Success - 2021/06/29 06:55:12 (PDT), 1</td>
+<td></td>
+<td>287</td>
+<td>winapp.cti.qa.testcases.phonecontrol.BlindTransferCallTest@7c24b813</td></tr>
+<tr>
+<td title='winapp.cti.qa.testcases.phonecontrol.BlindTransferCallTest.transferCall()'><b>transferCall</b><br>Test class: winapp.cti.qa.testcases.phonecontrol.BlindTransferCallTest<br>Parameters: Y, 8161, 8162, 8099, 8024, PrivateLine, , Success - 2021/06/29 06:57:46 (PDT), 2</td>
+<td></td>
+<td>127</td>
+<td>winapp.cti.qa.testcases.phonecontrol.BlindTransferCallTest@7c24b813</td></tr>
+<tr>
+<td title='winapp.cti.qa.testcases.phonecontrol.ConferenceCallTest.transferCall()'><b>transferCall</b><br>Test class: winapp.cti.qa.testcases.phonecontrol.ConferenceCallTest<br>Parameters: Y, 8161, 8162, 8014, 8014, PrivateLine, , Success - 2021/06/29 07:02:53 (PDT), 1</td>
+<td></td>
+<td>365</td>
+<td>winapp.cti.qa.testcases.phonecontrol.ConferenceCallTest@2c35e847</td></tr>
+<tr>
+<td title='winapp.cti.qa.testcases.phonecontrol.ConferenceCallTest.transferCall()'><b>transferCall</b><br>Test class: winapp.cti.qa.testcases.phonecontrol.ConferenceCallTest<br>Parameters: Y, 8161, 8162, 8099, 8024, PrivateLine, , Success - 2021/06/29 07:05:02 (PDT), 2</td>
+<td></td>
+<td>236</td>
+<td>winapp.cti.qa.testcases.phonecontrol.ConferenceCallTest@2c35e847</td></tr>
+</table><p>
+</body>
+</html>
